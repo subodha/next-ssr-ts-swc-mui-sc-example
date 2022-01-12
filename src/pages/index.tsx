@@ -15,6 +15,12 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 import { ThemeProvider } from '@mui/material/styles';
+import { styled } from '@mui/system';
+
+const TypographyStyled = styled(Typography)`
+  color: white;
+  margin-left: 12px;
+`
 
 // If you need to custamize the theme you can update theme file directly
 import { theme } from '../theme'
@@ -44,6 +50,9 @@ const Home: NextPage = () => {
           <Typography variant="h6" color="inherit" noWrap>
             Album layout
           </Typography>
+          <TypographyStyled>
+            With MUI
+          </TypographyStyled>
         </Toolbar>
       </AppBar>
       <main>
