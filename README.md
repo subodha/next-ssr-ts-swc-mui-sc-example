@@ -24,11 +24,11 @@ yarn dev
 npm run dev
 ```
 
-:exclamation: May be you will get a error 
+:fire: May be you will get a error 
 `./node_modules/@mui/system/ThemeProvider/ThemeProvider.js:18:20
 Module not found: Can't resolve '@mui/styled-engine'`
 
-Please install the `@mui/styled-engine-sc ` manually and re run the development server
+:point_right: Please install the `@mui/styled-engine-sc ` manually and re run the development server
 
 ```bash
 yarn add @mui/styled-engine-sc
