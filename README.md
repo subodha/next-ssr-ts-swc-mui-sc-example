@@ -2,8 +2,9 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-
-Using styled-components as an engine at this moment is not working when used in a SSR projects with bable. The reason is that the babel-plugin-styled-components is not picking up correctly the usages of the styled() utility inside the @mui packages. As a solution we could able to use swc compiler. This is a example code base which has been configured to use
+:sparkles: In this example, it has been **RESOLVED** the issue occure when using **styled-components as an engine in a SSR projects** with bable.
+The reason is that the babel-plugin-styled-components is not picking up correctly the usages of the styled() utility inside the @mui packages.
+As a solution we could able to use swc compiler wich is next js default compiler :rocket: .
 
 ## How to use
 
